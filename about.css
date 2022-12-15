@@ -1,0 +1,271 @@
+* {
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+.hero {
+
+
+
+
+    max-width: 100%;
+
+}
+
+
+
+
+nav {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    background-color: black;
+
+}
+
+
+
+
+nav ul li {
+
+    list-style-type: none;
+
+    display: inline-block;
+
+    padding: 5px;
+
+
+
+
+}
+
+
+
+
+nav ul li a {
+
+    color: rgb(140, 140, 140);
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+
+
+
+nav ul li a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+
+
+.logo {
+
+    max-width: 80px;
+
+    max-height: 80px;
+
+    border-radius: 50%;
+
+
+
+
+}
+
+
+
+
+nav ul {
+
+    color: white;
+
+    padding: 20px;
+
+
+
+
+}
+
+
+
+
+.container {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.item {
+
+    flex: 2;
+
+    padding: 10px;
+
+    margin: 5px;
+
+    border: 1px solid;
+
+}
+
+p {
+
+    font-size: 15px;
+
+}
+
+.one {
+
+    background-color: white;
+
+    padding: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.two {
+
+    background-color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.three {
+
+    background-color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.four {
+
+    background-color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.five {
+
+    padding: 15px;
+
+    background-color: black;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+
+
+
+    min-height: 120px;
+
+}
+
+
+
+
+footer ul {
+
+    color: white;
+
+
+
+
+
+}
+
+
+
+
+.Scientists {
+
+    max-width: 300px;
+
+    max-height: 300px;
+
+    padding: 5px;
+
+}
+
+
+
+
+.textile {
+
+    max-width: 300px;
+
+    max-height: 300px;
+
+    padding: 5px;
+
+}
+
+
+
+
+.tbma {
+
+    max-width: 300px;
+
+    max-height: 300px;
+
+    padding: 5px;
+
+}
+
+.outside {
+
+    max-width: 300px;
+
+    max-height: 300px;
+
+    padding: 5px;
+
+}
+
+h1 {
+
+    font-size: 25px;
+
+    text-align: center;
+
+    padding: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}

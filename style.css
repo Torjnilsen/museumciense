@@ -1,0 +1,268 @@
+* {
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.hero {
+
+    max-width: 100%;
+
+}
+
+nav {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    background-color: black;
+
+}
+
+
+
+
+nav ul li {
+
+    list-style-type: none;
+
+    display: inline-block;
+
+    padding: 5px;
+
+
+
+
+}
+
+nav ul li a {
+
+    color: rgb(140, 140, 140);
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+
+
+.logo {
+
+    max-width: 80px;
+
+    max-height: 80px;
+
+    border-radius: 60%;
+
+}
+
+
+
+
+nav ul {
+
+    color: white;
+
+    padding: 20px;
+
+}
+
+
+
+
+main {
+
+    padding: 5px;
+
+}
+
+.two {
+
+    background-color: #ffffff;
+
+    min-height: 600px;
+
+    outline: 2px solid black;
+
+    background-image: url(./images/roberto-nickson-396152.jpg);
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+    justify-content: space-between;
+
+}
+
+.book {
+
+    background-color: cadetblue;
+
+
+
+
+}
+
+
+
+
+.sbmitt:hover {
+
+    letter-spacing: 2px;
+
+    opacity: .8;
+
+}
+
+h1 {
+
+    text-align: center;
+
+    color: white;
+
+    padding: 20px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+}
+
+
+
+
+p {
+
+    text-align: center;
+
+    color: white;
+
+    font-size: 25px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.two ul li a {
+
+    color: black;
+
+    padding: 10px;
+
+    border-radius: 30px;
+
+    font-weight: bold;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+}
+
+.two ul li a:hover {
+
+    text-decoration: underline;
+
+}
+
+.three {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.three p {
+
+    color: black;
+
+}
+
+
+
+
+.five {
+
+    padding: 15px;
+
+    background-color: black;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    min-height: 120px;
+
+}
+
+
+
+
+footer ul {
+
+    color: white;
+
+
+
+
+}
+
+
+
+
+.hero__button {
+
+    background-color: black;
+
+    color: white;
+
+    height: 30px;
+
+    background-repeat: no-repeat;
+
+    background-position: center right 20px;
+
+    padding-right: 10px;
+
+}
+
+
+
+
+.hero__button:hover {
+
+    letter-spacing: 2px;
+
+    opacity: .8;
+
+}

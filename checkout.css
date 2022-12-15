@@ -1,0 +1,283 @@
+* {
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+    outline: none;
+    border: none;
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+.hero {
+
+
+
+
+    max-width: 100%;
+
+}
+
+
+
+
+nav {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    background-color: black;
+
+}
+
+
+
+
+nav ul li {
+
+    list-style-type: none;
+
+    display: inline-block;
+
+    padding: 5px;
+
+
+
+
+}
+
+
+
+
+nav ul li a {
+
+    color: rgb(140, 140, 140);
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+
+
+
+nav ul li a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+
+
+.logo {
+
+    max-width: 80px;
+
+    max-height: 80px;
+
+    border-radius: 50%;
+
+
+
+
+}
+
+
+
+
+.item {
+
+    flex: 2;
+
+    padding: 10px;
+
+    margin: 5px;
+
+    border: 1px solid;
+
+}
+
+
+
+
+.one {
+
+    background-color: white;
+
+    padding: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+h1 {
+
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 25px;
+
+}
+
+h3 {
+
+    padding: 15px;
+
+}
+
+
+
+
+.date {
+
+    padding: 10px;
+
+    min-width: 280px;
+
+}
+
+input {
+
+    border-radius: 10px;
+
+    border: 1px solid;
+
+    width: 200px;
+
+}
+
+.email {
+
+    width: 200px;
+
+    height: 30px;
+
+}
+
+.Exhibition {
+
+    padding: 10px;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    border: 1px solid;
+
+
+
+
+}
+
+.container form .inputbox {
+
+    margin-top: 20px;
+
+}
+
+.container form .inputbox span {
+
+    display: block;
+
+    padding-bottom: 5px;
+
+
+
+
+}
+
+.container form .inputbox input,
+
+.container form .inputbox select {
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    border: 1px solid;
+
+
+
+
+}
+
+.sbmitt {
+
+    background: linear-gradient(45deg, blueviolet, deeppink);
+
+    margin-top: 20px;
+
+    padding: 10px;
+
+    color: white;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    transition: .2s linear;
+
+    width: 300px;
+
+}
+
+.sbmitt:hover {
+
+    letter-spacing: 2px;
+
+    opacity: .8;
+
+    background: black;
+
+    color: white;
+
+}
+
+.five {
+
+    padding: 15px;
+
+    background-color: black;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+
+
+
+    min-height: 120px;
+
+}
+
+
+
+
+footer ul {
+
+color: white;
+}
+
+   
